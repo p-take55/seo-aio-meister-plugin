@@ -1,0 +1,3472 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-16T08:40:00Z",
+  "site": {
+    "name": "みどり園芸店",
+    "url": "https://example.com"
+  },
+  "stage": {
+    "current": 4,
+    "note": "架空のオンライン植物店の表示見本です。植え替えと水やりの記事を準備しています。"
+  },
+  "next_action": {
+    "who": "human",
+    "text": "観葉植物の植え替えと水やりの記事候補を確認する"
+  },
+  "asks": [
+    {
+      "title": "植え替えと水やりの初回記事を確認する",
+      "waiting_for": "サンプル担当者",
+      "since": "2026-11-14"
+    },
+    {
+      "title": "害虫対策に使う架空の作業写真を確認する",
+      "waiting_for": "サンプル確認者",
+      "since": "2026-11-16"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Search Console",
+      "state": "connected",
+      "note": "開発用サンプル。検索実績は架空の値です。",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "name": "GA4",
+      "state": "requested",
+      "note": "閲覧権限の付与を依頼中という設定です。",
+      "checked_on": "2026-11-16"
+    },
+    {
+      "name": "検索数ツール",
+      "state": "not_connected",
+      "note": "接続前という設定です。候補表には架空の調査値を入れています。",
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "spend": [
+    {
+      "name": "DataForSEO（架空の利用例）",
+      "balance_usd": 12.0,
+      "used_usd": 3.0,
+      "checked_on": "2026-11-16"
+    }
+  ],
+  "search": {
+    "source": "Search Console（開発用の架空データ）",
+    "period": {
+      "start": "2026-10-17",
+      "end": "2026-11-13"
+    },
+    "prev_period": {
+      "start": "2026-09-19",
+      "end": "2026-10-16"
+    },
+    "totals": {
+      "clicks": 448,
+      "impressions": 10514,
+      "prev_clicks": 356,
+      "prev_impressions": 8162,
+      "position": 7.6
+    },
+    "daily": [
+      {
+        "date": "2026-08-18",
+        "clicks": 4,
+        "impressions": 110
+      },
+      {
+        "date": "2026-08-19",
+        "clicks": 5,
+        "impressions": 128
+      },
+      {
+        "date": "2026-08-20",
+        "clicks": 6,
+        "impressions": 146
+      },
+      {
+        "date": "2026-08-21",
+        "clicks": 8,
+        "impressions": 164
+      },
+      {
+        "date": "2026-08-22",
+        "clicks": 9,
+        "impressions": 182
+      },
+      {
+        "date": "2026-08-23",
+        "clicks": 7,
+        "impressions": 200
+      },
+      {
+        "date": "2026-08-24",
+        "clicks": 9,
+        "impressions": 218
+      },
+      {
+        "date": "2026-08-25",
+        "clicks": 6,
+        "impressions": 131
+      },
+      {
+        "date": "2026-08-26",
+        "clicks": 7,
+        "impressions": 149
+      },
+      {
+        "date": "2026-08-27",
+        "clicks": 9,
+        "impressions": 167
+      },
+      {
+        "date": "2026-08-28",
+        "clicks": 6,
+        "impressions": 185
+      },
+      {
+        "date": "2026-08-29",
+        "clicks": 8,
+        "impressions": 203
+      },
+      {
+        "date": "2026-08-30",
+        "clicks": 10,
+        "impressions": 221
+      },
+      {
+        "date": "2026-08-31",
+        "clicks": 11,
+        "impressions": 239
+      },
+      {
+        "date": "2026-09-01",
+        "clicks": 8,
+        "impressions": 152
+      },
+      {
+        "date": "2026-09-02",
+        "clicks": 6,
+        "impressions": 170
+      },
+      {
+        "date": "2026-09-03",
+        "clicks": 7,
+        "impressions": 188
+      },
+      {
+        "date": "2026-09-04",
+        "clicks": 9,
+        "impressions": 206
+      },
+      {
+        "date": "2026-09-05",
+        "clicks": 11,
+        "impressions": 224
+      },
+      {
+        "date": "2026-09-06",
+        "clicks": 12,
+        "impressions": 242
+      },
+      {
+        "date": "2026-09-07",
+        "clicks": 9,
+        "impressions": 260
+      },
+      {
+        "date": "2026-09-08",
+        "clicks": 7,
+        "impressions": 173
+      },
+      {
+        "date": "2026-09-09",
+        "clicks": 8,
+        "impressions": 191
+      },
+      {
+        "date": "2026-09-10",
+        "clicks": 10,
+        "impressions": 209
+      },
+      {
+        "date": "2026-09-11",
+        "clicks": 12,
+        "impressions": 227
+      },
+      {
+        "date": "2026-09-12",
+        "clicks": 9,
+        "impressions": 245
+      },
+      {
+        "date": "2026-09-13",
+        "clicks": 10,
+        "impressions": 263
+      },
+      {
+        "date": "2026-09-14",
+        "clicks": 12,
+        "impressions": 281
+      },
+      {
+        "date": "2026-09-15",
+        "clicks": 9,
+        "impressions": 194
+      },
+      {
+        "date": "2026-09-16",
+        "clicks": 11,
+        "impressions": 212
+      },
+      {
+        "date": "2026-09-17",
+        "clicks": 8,
+        "impressions": 230
+      },
+      {
+        "date": "2026-09-18",
+        "clicks": 10,
+        "impressions": 248
+      },
+      {
+        "date": "2026-09-19",
+        "clicks": 11,
+        "impressions": 266
+      },
+      {
+        "date": "2026-09-20",
+        "clicks": 13,
+        "impressions": 284
+      },
+      {
+        "date": "2026-09-21",
+        "clicks": 15,
+        "impressions": 302
+      },
+      {
+        "date": "2026-09-22",
+        "clicks": 8,
+        "impressions": 215
+      },
+      {
+        "date": "2026-09-23",
+        "clicks": 9,
+        "impressions": 233
+      },
+      {
+        "date": "2026-09-24",
+        "clicks": 11,
+        "impressions": 251
+      },
+      {
+        "date": "2026-09-25",
+        "clicks": 13,
+        "impressions": 269
+      },
+      {
+        "date": "2026-09-26",
+        "clicks": 15,
+        "impressions": 287
+      },
+      {
+        "date": "2026-09-27",
+        "clicks": 11,
+        "impressions": 305
+      },
+      {
+        "date": "2026-09-28",
+        "clicks": 13,
+        "impressions": 323
+      },
+      {
+        "date": "2026-09-29",
+        "clicks": 10,
+        "impressions": 236
+      },
+      {
+        "date": "2026-09-30",
+        "clicks": 12,
+        "impressions": 254
+      },
+      {
+        "date": "2026-10-01",
+        "clicks": 14,
+        "impressions": 272
+      },
+      {
+        "date": "2026-10-02",
+        "clicks": 10,
+        "impressions": 290
+      },
+      {
+        "date": "2026-10-03",
+        "clicks": 12,
+        "impressions": 308
+      },
+      {
+        "date": "2026-10-04",
+        "clicks": 14,
+        "impressions": 326
+      },
+      {
+        "date": "2026-10-05",
+        "clicks": 16,
+        "impressions": 344
+      },
+      {
+        "date": "2026-10-06",
+        "clicks": 13,
+        "impressions": 257
+      },
+      {
+        "date": "2026-10-07",
+        "clicks": 10,
+        "impressions": 275
+      },
+      {
+        "date": "2026-10-08",
+        "clicks": 11,
+        "impressions": 293
+      },
+      {
+        "date": "2026-10-09",
+        "clicks": 13,
+        "impressions": 311
+      },
+      {
+        "date": "2026-10-10",
+        "clicks": 15,
+        "impressions": 329
+      },
+      {
+        "date": "2026-10-11",
+        "clicks": 18,
+        "impressions": 347
+      },
+      {
+        "date": "2026-10-12",
+        "clicks": 13,
+        "impressions": 365
+      },
+      {
+        "date": "2026-10-13",
+        "clicks": 11,
+        "impressions": 278
+      },
+      {
+        "date": "2026-10-14",
+        "clicks": 13,
+        "impressions": 296
+      },
+      {
+        "date": "2026-10-15",
+        "clicks": 15,
+        "impressions": 314
+      },
+      {
+        "date": "2026-10-16",
+        "clicks": 17,
+        "impressions": 332
+      },
+      {
+        "date": "2026-10-17",
+        "clicks": 12,
+        "impressions": 350
+      },
+      {
+        "date": "2026-10-18",
+        "clicks": 14,
+        "impressions": 368
+      },
+      {
+        "date": "2026-10-19",
+        "clicks": 17,
+        "impressions": 386
+      },
+      {
+        "date": "2026-10-20",
+        "clicks": 14,
+        "impressions": 299
+      },
+      {
+        "date": "2026-10-21",
+        "clicks": 16,
+        "impressions": 317
+      },
+      {
+        "date": "2026-10-22",
+        "clicks": 12,
+        "impressions": 335
+      },
+      {
+        "date": "2026-10-23",
+        "clicks": 14,
+        "impressions": 353
+      },
+      {
+        "date": "2026-10-24",
+        "clicks": 16,
+        "impressions": 371
+      },
+      {
+        "date": "2026-10-25",
+        "clicks": 18,
+        "impressions": 389
+      },
+      {
+        "date": "2026-10-26",
+        "clicks": 21,
+        "impressions": 407
+      },
+      {
+        "date": "2026-10-27",
+        "clicks": 11,
+        "impressions": 320
+      },
+      {
+        "date": "2026-10-28",
+        "clicks": 13,
+        "impressions": 338
+      },
+      {
+        "date": "2026-10-29",
+        "clicks": 15,
+        "impressions": 356
+      },
+      {
+        "date": "2026-10-30",
+        "clicks": 18,
+        "impressions": 374
+      },
+      {
+        "date": "2026-10-31",
+        "clicks": 20,
+        "impressions": 392
+      },
+      {
+        "date": "2026-11-01",
+        "clicks": 14,
+        "impressions": 410
+      },
+      {
+        "date": "2026-11-02",
+        "clicks": 17,
+        "impressions": 428
+      },
+      {
+        "date": "2026-11-03",
+        "clicks": 15,
+        "impressions": 341
+      },
+      {
+        "date": "2026-11-04",
+        "clicks": 17,
+        "impressions": 359
+      },
+      {
+        "date": "2026-11-05",
+        "clicks": 19,
+        "impressions": 377
+      },
+      {
+        "date": "2026-11-06",
+        "clicks": 14,
+        "impressions": 395
+      },
+      {
+        "date": "2026-11-07",
+        "clicks": 16,
+        "impressions": 413
+      },
+      {
+        "date": "2026-11-08",
+        "clicks": 19,
+        "impressions": 431
+      },
+      {
+        "date": "2026-11-09",
+        "clicks": 21,
+        "impressions": 449
+      },
+      {
+        "date": "2026-11-10",
+        "clicks": 18,
+        "impressions": 362
+      },
+      {
+        "date": "2026-11-11",
+        "clicks": 13,
+        "impressions": 380
+      },
+      {
+        "date": "2026-11-12",
+        "clicks": 16,
+        "impressions": 398
+      },
+      {
+        "date": "2026-11-13",
+        "clicks": 18,
+        "impressions": 416
+      },
+      {
+        "date": "2026-11-14",
+        "clicks": 20,
+        "impressions": 434
+      },
+      {
+        "date": "2026-11-15",
+        "clicks": 23,
+        "impressions": 452
+      }
+    ],
+    "queries": [
+      {
+        "query": "みどり園芸店",
+        "clicks": 4,
+        "impressions": 90,
+        "prev_impressions": 70,
+        "position": 2.1,
+        "brand": true
+      },
+      {
+        "query": "みどり園芸店 観葉植物",
+        "clicks": 6,
+        "impressions": 145,
+        "prev_impressions": 117,
+        "position": 3.4,
+        "brand": true
+      },
+      {
+        "query": "観葉植物 初心者",
+        "clicks": 8,
+        "impressions": 200,
+        "prev_impressions": 164,
+        "position": 4.7,
+        "brand": false
+      },
+      {
+        "query": "モンステラ 植え替え",
+        "clicks": 10,
+        "impressions": 255,
+        "prev_impressions": 211,
+        "position": 6.0,
+        "brand": false
+      },
+      {
+        "query": "パキラ 水やり",
+        "clicks": 12,
+        "impressions": 310,
+        "prev_impressions": 258,
+        "position": 7.3,
+        "brand": false
+      },
+      {
+        "query": "ポトス 害虫",
+        "clicks": 14,
+        "impressions": 365,
+        "prev_impressions": 305,
+        "position": 8.6,
+        "brand": false
+      },
+      {
+        "query": "観葉植物 鉢 選び方",
+        "clicks": 16,
+        "impressions": 420,
+        "prev_impressions": 352,
+        "position": 9.9,
+        "brand": false
+      },
+      {
+        "query": "観葉植物 根腐れ",
+        "clicks": 18,
+        "impressions": 475,
+        "prev_impressions": 399,
+        "position": 11.2,
+        "brand": false
+      },
+      {
+        "query": "サンスベリア 冬",
+        "clicks": 20,
+        "impressions": 530,
+        "prev_impressions": 446,
+        "position": 12.5,
+        "brand": false
+      },
+      {
+        "query": "ガジュマル 置き場所",
+        "clicks": 22,
+        "impressions": 585,
+        "prev_impressions": 493,
+        "position": 13.8,
+        "brand": false
+      },
+      {
+        "query": "観葉植物 土",
+        "clicks": 24,
+        "impressions": 640,
+        "prev_impressions": 540,
+        "position": 15.1,
+        "brand": false
+      },
+      {
+        "query": "観葉植物 葉が黄色い",
+        "clicks": 26,
+        "impressions": 695,
+        "prev_impressions": 587,
+        "position": 16.4,
+        "brand": false
+      }
+    ],
+    "pages": [
+      {
+        "page": "https://example.com/",
+        "clicks": 30,
+        "impressions": 420,
+        "prev_impressions": 340,
+        "position": 3.2
+      },
+      {
+        "page": "https://example.com/guide/repotting",
+        "clicks": 38,
+        "impressions": 580,
+        "prev_impressions": 470,
+        "position": 5.3
+      },
+      {
+        "page": "https://example.com/guide/watering",
+        "clicks": 46,
+        "impressions": 740,
+        "prev_impressions": 600,
+        "position": 7.4
+      },
+      {
+        "page": "https://example.com/guide/pests",
+        "clicks": 54,
+        "impressions": 900,
+        "prev_impressions": 730,
+        "position": 9.5
+      },
+      {
+        "page": "https://example.com/plants/monstera",
+        "clicks": 62,
+        "impressions": 1060,
+        "prev_impressions": 860,
+        "position": 11.6
+      },
+      {
+        "page": "https://example.com/plants/pothos",
+        "clicks": 70,
+        "impressions": 1220,
+        "prev_impressions": 990,
+        "position": 13.7
+      }
+    ],
+    "note": "問いごとの合計は、匿名化された検索を含まないので画面の合計より小さい。すべて表示確認用の架空の値です。"
+  },
+  "themes": [
+    {
+      "name": "観葉植物の選び方",
+      "priority": "高"
+    },
+    {
+      "name": "植え替えの手順",
+      "priority": "高"
+    },
+    {
+      "name": "水やりの管理",
+      "priority": "中"
+    },
+    {
+      "name": "害虫と不調への対処",
+      "priority": "低"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "観葉植物 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": null,
+      "recent3_avg": null,
+      "trend": "up",
+      "cpc_usd": null,
+      "competition": null,
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": 3.0,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 140,
+      "recent3_avg": 126,
+      "trend": "flat",
+      "cpc_usd": 0.19,
+      "competition": "LOW",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "proposed",
+      "rank": 1,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 260,
+      "recent3_avg": 260,
+      "trend": "down",
+      "cpc_usd": 0.26,
+      "competition": "MEDIUM",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "proposed",
+      "rank": 2,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 480,
+      "recent3_avg": 528,
+      "trend": "unknown",
+      "cpc_usd": 0.33,
+      "competition": "HIGH",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": 6.3,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 880,
+      "recent3_avg": 1056,
+      "trend": "up",
+      "cpc_usd": 0.4,
+      "competition": null,
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 1600,
+      "recent3_avg": 1280,
+      "trend": "flat",
+      "cpc_usd": 0.47,
+      "competition": "LOW",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 2900,
+      "recent3_avg": 2610,
+      "trend": "down",
+      "cpc_usd": 0.54,
+      "competition": "MEDIUM",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": 9.6,
+      "status": "approved",
+      "rank": 3,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 70,
+      "recent3_avg": 70,
+      "trend": "unknown",
+      "cpc_usd": 0.61,
+      "competition": "HIGH",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": 4,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 140,
+      "recent3_avg": 154,
+      "trend": "up",
+      "cpc_usd": 0.68,
+      "competition": null,
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 260,
+      "recent3_avg": null,
+      "trend": "flat",
+      "cpc_usd": 0.75,
+      "competition": "LOW",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": 12.9,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 480,
+      "recent3_avg": 384,
+      "trend": "down",
+      "cpc_usd": 0.82,
+      "competition": "MEDIUM",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "観葉植物 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": null,
+      "recent3_avg": 126,
+      "trend": "unknown",
+      "cpc_usd": 0.89,
+      "competition": "HIGH",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "観葉植物の根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 1600,
+      "recent3_avg": 1600,
+      "trend": "up",
+      "cpc_usd": 0.96,
+      "competition": null,
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": 15.2,
+      "status": "candidate",
+      "rank": 5,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 2900,
+      "recent3_avg": 3190,
+      "trend": "flat",
+      "cpc_usd": 1.03,
+      "competition": "LOW",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 70,
+      "recent3_avg": 84,
+      "trend": "down",
+      "cpc_usd": null,
+      "competition": "MEDIUM",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 140,
+      "recent3_avg": 112,
+      "trend": "unknown",
+      "cpc_usd": 1.17,
+      "competition": "HIGH",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": 18.5,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 260,
+      "recent3_avg": 234,
+      "trend": "up",
+      "cpc_usd": 1.24,
+      "competition": null,
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 480,
+      "recent3_avg": 480,
+      "trend": "flat",
+      "cpc_usd": 1.31,
+      "competition": "LOW",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 880,
+      "recent3_avg": null,
+      "trend": "down",
+      "cpc_usd": 1.38,
+      "competition": "MEDIUM",
+      "ai_overview": true,
+      "own_cited": false,
+      "own_position": 21.8,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 1600,
+      "recent3_avg": 1920,
+      "trend": "unknown",
+      "cpc_usd": 0.12,
+      "competition": "HIGH",
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 2900,
+      "recent3_avg": 2320,
+      "trend": "up",
+      "cpc_usd": 0.19,
+      "competition": null,
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 70,
+      "recent3_avg": 63,
+      "trend": "flat",
+      "cpc_usd": null,
+      "competition": "LOW",
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": 24.1,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": null,
+      "recent3_avg": 140,
+      "trend": "down",
+      "cpc_usd": 0.33,
+      "competition": "MEDIUM",
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "モンステラ 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 260,
+      "recent3_avg": 286,
+      "trend": "unknown",
+      "cpc_usd": 0.4,
+      "competition": "HIGH",
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "モンステラの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 480,
+      "recent3_avg": 576,
+      "trend": "up",
+      "cpc_usd": 0.47,
+      "competition": null,
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": 27.4,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 880,
+      "recent3_avg": 704,
+      "trend": "flat",
+      "cpc_usd": 0.54,
+      "competition": "LOW",
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 1600,
+      "recent3_avg": 1440,
+      "trend": "down",
+      "cpc_usd": 0.61,
+      "competition": "MEDIUM",
+      "ai_overview": false,
+      "own_cited": false,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 2900,
+      "recent3_avg": null,
+      "trend": "unknown",
+      "cpc_usd": 0.68,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 4.7,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 70,
+      "recent3_avg": 77,
+      "trend": "up",
+      "cpc_usd": null,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 140,
+      "recent3_avg": 168,
+      "trend": "flat",
+      "cpc_usd": 0.82,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 260,
+      "recent3_avg": 208,
+      "trend": "down",
+      "cpc_usd": 0.89,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 7.0,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 480,
+      "recent3_avg": 432,
+      "trend": "unknown",
+      "cpc_usd": 0.96,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 880,
+      "recent3_avg": 880,
+      "trend": "up",
+      "cpc_usd": 1.03,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": null,
+      "recent3_avg": 154,
+      "trend": "flat",
+      "cpc_usd": 1.1,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 10.3,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 2900,
+      "recent3_avg": 3480,
+      "trend": "down",
+      "cpc_usd": 1.17,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "パキラ 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 70,
+      "recent3_avg": 56,
+      "trend": "unknown",
+      "cpc_usd": null,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "パキラの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 140,
+      "recent3_avg": null,
+      "trend": "up",
+      "cpc_usd": 1.31,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 13.6,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 260,
+      "recent3_avg": 260,
+      "trend": "flat",
+      "cpc_usd": 1.38,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 480,
+      "recent3_avg": 528,
+      "trend": "down",
+      "cpc_usd": 0.12,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 880,
+      "recent3_avg": 1056,
+      "trend": "unknown",
+      "cpc_usd": 0.19,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 16.9,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 1600,
+      "recent3_avg": 1280,
+      "trend": "up",
+      "cpc_usd": 0.26,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 2900,
+      "recent3_avg": 2610,
+      "trend": "flat",
+      "cpc_usd": 0.33,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 70,
+      "recent3_avg": 70,
+      "trend": "down",
+      "cpc_usd": null,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 19.2,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 140,
+      "recent3_avg": 154,
+      "trend": "unknown",
+      "cpc_usd": 0.47,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": null,
+      "recent3_avg": 168,
+      "trend": "up",
+      "cpc_usd": 0.54,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 480,
+      "recent3_avg": null,
+      "trend": "flat",
+      "cpc_usd": 0.61,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 22.5,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 880,
+      "recent3_avg": 792,
+      "trend": "down",
+      "cpc_usd": 0.68,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "ポトス 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 1600,
+      "recent3_avg": 1600,
+      "trend": "unknown",
+      "cpc_usd": 0.75,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ポトスの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 2900,
+      "recent3_avg": 3190,
+      "trend": "up",
+      "cpc_usd": 0.82,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 25.8,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 70,
+      "recent3_avg": 84,
+      "trend": "flat",
+      "cpc_usd": null,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 140,
+      "recent3_avg": 112,
+      "trend": "down",
+      "cpc_usd": 0.96,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 260,
+      "recent3_avg": 234,
+      "trend": "unknown",
+      "cpc_usd": 1.03,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 28.1,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 480,
+      "recent3_avg": 480,
+      "trend": "up",
+      "cpc_usd": 1.1,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 880,
+      "recent3_avg": 968,
+      "trend": "flat",
+      "cpc_usd": 1.17,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 1600,
+      "recent3_avg": null,
+      "trend": "down",
+      "cpc_usd": 1.24,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 5.4,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": null,
+      "recent3_avg": 112,
+      "trend": "unknown",
+      "cpc_usd": 1.31,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 70,
+      "recent3_avg": 63,
+      "trend": "up",
+      "cpc_usd": null,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 140,
+      "recent3_avg": 140,
+      "trend": "flat",
+      "cpc_usd": 0.12,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 8.7,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 260,
+      "recent3_avg": 286,
+      "trend": "down",
+      "cpc_usd": 0.19,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "サンスベリア 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 480,
+      "recent3_avg": 576,
+      "trend": "unknown",
+      "cpc_usd": 0.26,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "サンスベリアの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 880,
+      "recent3_avg": 704,
+      "trend": "up",
+      "cpc_usd": 0.33,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 11.0,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 1600,
+      "recent3_avg": 1440,
+      "trend": "flat",
+      "cpc_usd": 0.4,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 2900,
+      "recent3_avg": 2900,
+      "trend": "down",
+      "cpc_usd": 0.47,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 70,
+      "recent3_avg": null,
+      "trend": "unknown",
+      "cpc_usd": null,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 14.3,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 140,
+      "recent3_avg": 168,
+      "trend": "up",
+      "cpc_usd": 0.61,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 260,
+      "recent3_avg": 208,
+      "trend": "flat",
+      "cpc_usd": 0.68,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": null,
+      "recent3_avg": 126,
+      "trend": "down",
+      "cpc_usd": 0.75,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 17.6,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 880,
+      "recent3_avg": 880,
+      "trend": "unknown",
+      "cpc_usd": 0.82,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 1600,
+      "recent3_avg": 1760,
+      "trend": "up",
+      "cpc_usd": 0.89,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 2900,
+      "recent3_avg": 3480,
+      "trend": "flat",
+      "cpc_usd": 0.96,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 20.9,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 70,
+      "recent3_avg": 56,
+      "trend": "down",
+      "cpc_usd": null,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "ガジュマル 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 140,
+      "recent3_avg": 126,
+      "trend": "unknown",
+      "cpc_usd": 1.1,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ガジュマルの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 260,
+      "recent3_avg": null,
+      "trend": "up",
+      "cpc_usd": 1.17,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 23.2,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 480,
+      "recent3_avg": 528,
+      "trend": "flat",
+      "cpc_usd": 1.24,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 880,
+      "recent3_avg": 1056,
+      "trend": "down",
+      "cpc_usd": 1.31,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 1600,
+      "recent3_avg": 1280,
+      "trend": "unknown",
+      "cpc_usd": 1.38,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 26.5,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 2900,
+      "recent3_avg": 2610,
+      "trend": "up",
+      "cpc_usd": 0.12,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": null,
+      "recent3_avg": 140,
+      "trend": "flat",
+      "cpc_usd": null,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 140,
+      "recent3_avg": 154,
+      "trend": "down",
+      "cpc_usd": 0.26,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 3.8,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 260,
+      "recent3_avg": 312,
+      "trend": "unknown",
+      "cpc_usd": 0.33,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 480,
+      "recent3_avg": 384,
+      "trend": "up",
+      "cpc_usd": 0.4,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 880,
+      "recent3_avg": null,
+      "trend": "flat",
+      "cpc_usd": 0.47,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 6.1,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 1600,
+      "recent3_avg": 1600,
+      "trend": "down",
+      "cpc_usd": 0.54,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "フィカス 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 2900,
+      "recent3_avg": 3190,
+      "trend": "unknown",
+      "cpc_usd": 0.61,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "フィカスの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 70,
+      "recent3_avg": 84,
+      "trend": "up",
+      "cpc_usd": null,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 9.4,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 140,
+      "recent3_avg": 112,
+      "trend": "flat",
+      "cpc_usd": 0.75,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 260,
+      "recent3_avg": 234,
+      "trend": "down",
+      "cpc_usd": 0.82,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 480,
+      "recent3_avg": 480,
+      "trend": "unknown",
+      "cpc_usd": 0.89,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 12.7,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": null,
+      "recent3_avg": 154,
+      "trend": "up",
+      "cpc_usd": 0.96,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 1600,
+      "recent3_avg": 1920,
+      "trend": "flat",
+      "cpc_usd": 1.03,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 2900,
+      "recent3_avg": null,
+      "trend": "down",
+      "cpc_usd": 1.1,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 15.0,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 70,
+      "recent3_avg": 63,
+      "trend": "unknown",
+      "cpc_usd": null,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 140,
+      "recent3_avg": 140,
+      "trend": "up",
+      "cpc_usd": 1.24,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 260,
+      "recent3_avg": 286,
+      "trend": "flat",
+      "cpc_usd": 1.31,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 18.3,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 480,
+      "recent3_avg": 576,
+      "trend": "down",
+      "cpc_usd": 1.38,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "ドラセナ 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 880,
+      "recent3_avg": 704,
+      "trend": "unknown",
+      "cpc_usd": 0.12,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "ドラセナの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 1600,
+      "recent3_avg": 1440,
+      "trend": "up",
+      "cpc_usd": 0.19,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 21.6,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 2900,
+      "recent3_avg": 2900,
+      "trend": "flat",
+      "cpc_usd": 0.26,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": 70,
+      "recent3_avg": 77,
+      "trend": "down",
+      "cpc_usd": null,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": null,
+      "recent3_avg": null,
+      "trend": "unknown",
+      "cpc_usd": 0.4,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 24.9,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 260,
+      "recent3_avg": 208,
+      "trend": "up",
+      "cpc_usd": 0.47,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 480,
+      "recent3_avg": 432,
+      "trend": "flat",
+      "cpc_usd": 0.54,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 880,
+      "recent3_avg": 880,
+      "trend": "down",
+      "cpc_usd": 0.61,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 27.2,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 1600,
+      "recent3_avg": 1760,
+      "trend": "unknown",
+      "cpc_usd": 0.68,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 2900,
+      "recent3_avg": 3480,
+      "trend": "up",
+      "cpc_usd": 0.75,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 70,
+      "recent3_avg": 56,
+      "trend": "flat",
+      "cpc_usd": null,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 4.5,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 140,
+      "recent3_avg": 126,
+      "trend": "down",
+      "cpc_usd": 0.89,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "アイビー 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 260,
+      "recent3_avg": 260,
+      "trend": "unknown",
+      "cpc_usd": 0.96,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "アイビーの根腐れ・対処はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 選び方",
+      "theme": "観葉植物の選び方",
+      "volume": 480,
+      "recent3_avg": null,
+      "trend": "up",
+      "cpc_usd": 1.03,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 7.8,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの選び方はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 初心者",
+      "theme": "観葉植物の選び方",
+      "volume": 880,
+      "recent3_avg": 1056,
+      "trend": "flat",
+      "cpc_usd": 1.1,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの初心者はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 置き場所",
+      "theme": "観葉植物の選び方",
+      "volume": null,
+      "recent3_avg": 112,
+      "trend": "down",
+      "cpc_usd": 1.17,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：観葉植物の選び方の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの置き場所はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 植え替え 時期",
+      "theme": "植え替えの手順",
+      "volume": 2900,
+      "recent3_avg": 2610,
+      "trend": "unknown",
+      "cpc_usd": 1.24,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 10.1,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの植え替え・時期はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 植え替え 土",
+      "theme": "植え替えの手順",
+      "volume": 70,
+      "recent3_avg": 70,
+      "trend": "up",
+      "cpc_usd": null,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "candidate",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの植え替え・土はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 植え替え 鉢",
+      "theme": "植え替えの手順",
+      "volume": 140,
+      "recent3_avg": 154,
+      "trend": "flat",
+      "cpc_usd": 1.38,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "dropped",
+      "rank": null,
+      "reason": "架空の調査例：植え替えの手順の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの植え替え・鉢はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 水やり 頻度",
+      "theme": "水やりの管理",
+      "volume": 260,
+      "recent3_avg": 312,
+      "trend": "down",
+      "cpc_usd": 0.12,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 13.4,
+      "status": "dropped",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの水やり・頻度はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 水やり 冬",
+      "theme": "水やりの管理",
+      "volume": 480,
+      "recent3_avg": 384,
+      "trend": "unknown",
+      "cpc_usd": 0.19,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "dropped",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの水やり・冬はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 水やり 夏",
+      "theme": "水やりの管理",
+      "volume": 880,
+      "recent3_avg": 792,
+      "trend": "up",
+      "cpc_usd": 0.26,
+      "competition": null,
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "dropped",
+      "rank": null,
+      "reason": "架空の調査例：水やりの管理の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの水やり・夏はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 害虫 対策",
+      "theme": "害虫と不調への対処",
+      "volume": 1600,
+      "recent3_avg": null,
+      "trend": "flat",
+      "cpc_usd": 0.33,
+      "competition": "LOW",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": 16.7,
+      "status": "dropped",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの害虫・対策はどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 葉が黄色い",
+      "theme": "害虫と不調への対処",
+      "volume": 2900,
+      "recent3_avg": 3190,
+      "trend": "down",
+      "cpc_usd": 0.4,
+      "competition": "MEDIUM",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "dropped",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの葉が黄色いはどうすればよいですか"
+    },
+    {
+      "keyword": "シェフレラ 根腐れ 対処",
+      "theme": "害虫と不調への対処",
+      "volume": 70,
+      "recent3_avg": 84,
+      "trend": "unknown",
+      "cpc_usd": null,
+      "competition": "HIGH",
+      "ai_overview": null,
+      "own_cited": null,
+      "own_position": null,
+      "status": "dropped",
+      "rank": null,
+      "reason": "架空の調査例：害虫と不調への対処の悩みに、植物店の育て方ガイドで答えます。",
+      "source": "表示見本用の架空調査",
+      "checked_on": "2026-11-16",
+      "question": "シェフレラの根腐れ・対処はどうすればよいですか"
+    }
+  ],
+  "ai_visibility": {
+    "panel": [
+      {
+        "id": "q1",
+        "question": "初心者が育てやすい観葉植物は"
+      },
+      {
+        "id": "q2",
+        "question": "モンステラの植え替え時期は"
+      },
+      {
+        "id": "q3",
+        "question": "パキラの水やり頻度は"
+      },
+      {
+        "id": "q4",
+        "question": "室内の植物の害虫を見つけたら"
+      },
+      {
+        "id": "q5",
+        "question": "観葉植物の土を選ぶには"
+      },
+      {
+        "id": "q6",
+        "question": "葉が黄色くなったときに確認することは"
+      }
+    ],
+    "log": [
+      {
+        "date": "2026-10-19",
+        "engine": "Google AI Overview",
+        "question_id": "q1",
+        "cited": true,
+        "overview": true,
+        "sources": [
+          "plants-01.example.org"
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "Google AI Overview",
+        "question_id": "q2",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-02.example.org"
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "Google AI Overview",
+        "question_id": "q3",
+        "cited": false,
+        "overview": false,
+        "sources": []
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "Google AI Overview",
+        "question_id": "q4",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": true
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "Google AI Overview",
+        "question_id": "q5",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": null
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "Google AI Overview",
+        "question_id": "q6",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-06.example.org"
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q1",
+        "cited": true,
+        "overview": true,
+        "sources": [
+          "plants-07.example.org"
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q2",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-08.example.org"
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q3",
+        "cited": false,
+        "overview": false,
+        "sources": []
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q4",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": true
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q5",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": null
+      },
+      {
+        "date": "2026-10-19",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q6",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-12.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "Google AI Overview",
+        "question_id": "q1",
+        "cited": true,
+        "overview": true,
+        "sources": [
+          "plants-13.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "Google AI Overview",
+        "question_id": "q2",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-14.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "Google AI Overview",
+        "question_id": "q3",
+        "cited": false,
+        "overview": false,
+        "sources": []
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "Google AI Overview",
+        "question_id": "q4",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": true
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "Google AI Overview",
+        "question_id": "q5",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": null
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "Google AI Overview",
+        "question_id": "q6",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-18.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q1",
+        "cited": true,
+        "overview": true,
+        "sources": [
+          "plants-19.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q2",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-20.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q3",
+        "cited": false,
+        "overview": false,
+        "sources": []
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q4",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": true
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q5",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": null
+      },
+      {
+        "date": "2026-11-02",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q6",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-24.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "Google AI Overview",
+        "question_id": "q1",
+        "cited": true,
+        "overview": true,
+        "sources": [
+          "plants-25.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "Google AI Overview",
+        "question_id": "q2",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-26.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "Google AI Overview",
+        "question_id": "q3",
+        "cited": false,
+        "overview": false,
+        "sources": []
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "Google AI Overview",
+        "question_id": "q4",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": true
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "Google AI Overview",
+        "question_id": "q5",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": null
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "Google AI Overview",
+        "question_id": "q6",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-30.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q1",
+        "cited": true,
+        "overview": true,
+        "sources": [
+          "plants-01.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q2",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-02.example.org"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q3",
+        "cited": false,
+        "overview": false,
+        "sources": []
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q4",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": true
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q5",
+        "cited": false,
+        "overview": null,
+        "sources": [],
+        "mentioned": null
+      },
+      {
+        "date": "2026-11-16",
+        "engine": "回答エンジン（架空）",
+        "question_id": "q6",
+        "cited": false,
+        "overview": true,
+        "sources": [
+          "plants-06.example.org"
+        ]
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "モンステラの植え替えを始める前に（架空の記事）",
+      "url": "https://example.com/guide/repotting",
+      "published_on": "2026-08-21",
+      "keyword": "モンステラ 植え替え",
+      "clicks": 42,
+      "impressions": 640,
+      "position": 5.2,
+      "ai_cited": true,
+      "verdict": "効いている"
+    },
+    {
+      "title": "パキラの水やりと季節ごとの目安（架空の記事）",
+      "url": "https://example.com/guide/watering",
+      "published_on": "2026-10-02",
+      "keyword": "パキラ 水やり",
+      "clicks": 13,
+      "impressions": 280,
+      "position": 12.4,
+      "ai_cited": false,
+      "verdict": "あと一歩"
+    },
+    {
+      "title": "ポトスの害虫を見つけたら（架空の記事）",
+      "url": "https://example.com/guide/pests",
+      "published_on": "2026-11-13",
+      "keyword": "ポトス 害虫",
+      "clicks": 0,
+      "impressions": 4,
+      "position": null,
+      "ai_cited": null,
+      "verdict": "まだ早い"
+    }
+  ],
+  "readiness": {
+    "checked_on": "2026-11-16",
+    "items": [
+      {
+        "level": "stop",
+        "title": "主要ページを検索エンジンが取得できる",
+        "state": "done",
+        "note": "開発用の架空の点検結果です。確認済みという設定です。"
+      },
+      {
+        "level": "stop",
+        "title": "公開ページのアクセス制限を確認する",
+        "state": "done",
+        "note": "開発用の架空の点検結果です。確認済みという設定です。"
+      },
+      {
+        "level": "stop",
+        "title": "主要ページの正規 URL をそろえる",
+        "state": "done",
+        "note": "開発用の架空の点検結果です。確認済みという設定です。"
+      },
+      {
+        "level": "improve",
+        "title": "サイトマップを更新する",
+        "state": "done",
+        "note": "開発用の架空の点検結果です。確認済みという設定です。"
+      },
+      {
+        "level": "improve",
+        "title": "記事の著者と更新日を表示する",
+        "state": "open",
+        "note": "開発用の架空の点検結果です。次回の点検で確認する設定です。"
+      },
+      {
+        "level": "improve",
+        "title": "記事から関連ページへつなぐ",
+        "state": "open",
+        "note": "開発用の架空の点検結果です。次回の点検で確認する設定です。"
+      },
+      {
+        "level": "improve",
+        "title": "見出しと本文の問いをそろえる",
+        "state": "done",
+        "note": "開発用の架空の点検結果です。確認済みという設定です。"
+      },
+      {
+        "level": "optional",
+        "title": "画像の代替テキストを確認する",
+        "state": "open",
+        "note": "開発用の架空の点検結果です。次回の点検で確認する設定です。"
+      },
+      {
+        "level": "optional",
+        "title": "用語集への導線を用意する",
+        "state": "open",
+        "note": "開発用の架空の点検結果です。次回の点検で確認する設定です。"
+      },
+      {
+        "level": "optional",
+        "title": "育て方の作業写真と補足資料を用意する",
+        "state": "open",
+        "note": "開発用の架空の点検結果です。次回の点検で確認する設定です。"
+      }
+    ]
+  },
+  "citation_sources": {
+    "checked_on": "2026-11-16",
+    "questions": 120,
+    "with_overview": 19,
+    "items": [
+      {
+        "domain": "plants-01.example.org",
+        "cited": 18,
+        "own": false
+      },
+      {
+        "domain": "plants-02.example.net",
+        "cited": 18,
+        "own": false
+      },
+      {
+        "domain": "plants-03.example.org",
+        "cited": 17,
+        "own": false
+      },
+      {
+        "domain": "plants-04.example.net",
+        "cited": 17,
+        "own": false
+      },
+      {
+        "domain": "plants-05.example.org",
+        "cited": 16,
+        "own": false
+      },
+      {
+        "domain": "plants-06.example.net",
+        "cited": 16,
+        "own": false
+      },
+      {
+        "domain": "plants-07.example.org",
+        "cited": 15,
+        "own": false
+      },
+      {
+        "domain": "plants-08.example.net",
+        "cited": 15,
+        "own": false
+      },
+      {
+        "domain": "plants-09.example.org",
+        "cited": 14,
+        "own": false
+      },
+      {
+        "domain": "plants-10.example.net",
+        "cited": 14,
+        "own": false
+      },
+      {
+        "domain": "plants-11.example.org",
+        "cited": 13,
+        "own": false
+      },
+      {
+        "domain": "plants-12.example.net",
+        "cited": 13,
+        "own": false
+      },
+      {
+        "domain": "plants-13.example.org",
+        "cited": 12,
+        "own": false
+      },
+      {
+        "domain": "plants-14.example.net",
+        "cited": 12,
+        "own": false
+      },
+      {
+        "domain": "plants-15.example.org",
+        "cited": 11,
+        "own": false
+      },
+      {
+        "domain": "plants-16.example.net",
+        "cited": 11,
+        "own": false
+      },
+      {
+        "domain": "plants-17.example.org",
+        "cited": 10,
+        "own": false
+      },
+      {
+        "domain": "plants-18.example.net",
+        "cited": 10,
+        "own": false
+      },
+      {
+        "domain": "plants-19.example.org",
+        "cited": 9,
+        "own": false
+      },
+      {
+        "domain": "plants-20.example.net",
+        "cited": 9,
+        "own": false
+      },
+      {
+        "domain": "plants-21.example.org",
+        "cited": 8,
+        "own": false
+      },
+      {
+        "domain": "plants-22.example.net",
+        "cited": 8,
+        "own": false
+      },
+      {
+        "domain": "plants-23.example.org",
+        "cited": 7,
+        "own": false
+      },
+      {
+        "domain": "plants-24.example.net",
+        "cited": 7,
+        "own": false
+      },
+      {
+        "domain": "plants-25.example.org",
+        "cited": 6,
+        "own": false
+      },
+      {
+        "domain": "plants-26.example.net",
+        "cited": 6,
+        "own": false
+      },
+      {
+        "domain": "plants-27.example.org",
+        "cited": 5,
+        "own": false
+      },
+      {
+        "domain": "plants-28.example.net",
+        "cited": 5,
+        "own": false
+      },
+      {
+        "domain": "plants-29.example.org",
+        "cited": 4,
+        "own": false
+      },
+      {
+        "domain": "plants-30.example.net",
+        "cited": 4,
+        "own": false
+      }
+    ]
+  }
+}
