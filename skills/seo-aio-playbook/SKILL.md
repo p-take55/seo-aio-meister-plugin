@@ -28,7 +28,7 @@ metadata:
 | 6. 受け入れ確認 | 書いた記事を、公開の前に確かめる | `article-acceptance-check` |
 | 7. 効果測定 | 記事の結果と、AI の回答での見え方を見て、次の手を決める | `seo-results-review`、`ai-visibility-tracking` |
 
-数字は `seo-data-sources` で取る。集めた状況と数字は、`seo-dashboard` で 1 枚の画面にして人間に見せる。
+数字は `seo-data-sources` で取り、`seo-database` で Project のデータベースにためる。集めた状況と数字は、`seo-dashboard` で 1 枚の画面にして人間に見せる。
 
 ## 今どの段階かを見分ける
 
@@ -87,7 +87,8 @@ metadata:
 | 記事の原稿 | サイトの repo の作業ブランチ。repo が無ければ `docs/drafts/〈短い名前〉.md` |
 | 選んだ問い・受け入れの判断・結果の確認・データ源の接続の経緯・使った額の記録 | `docs/seo-log.md`（追記する。形は `seo-setup` の「記録の文書」） |
 | AI での見え方（問いの一覧と記録） | `docs/ai-visibility-panel.md`、`docs/ai-visibility-log.md` |
-| 人間が見る画面 | Project HTML の `seo-dashboard.html`（データは `seo-dashboard.data.json`） |
+| たまっていく数字（キーワードと検索数・単価・状態、問いごとの検索結果と引用元、日ごとの検索の数字、使った額） | Project のデータベース（`seo-database`）。使えない Project では文書 |
+| 人間が見る画面 | Project HTML の `seo-dashboard.html`（メンバーが開くとデータベースを読む。写しは `seo-dashboard.data.json`） |
 
 Project の REPORT.md は、Session の `aachat/contracts/report.md` の形で、今の状態だけを書き直す。記録を追記する場所ではない。追記する記録は `docs/seo-log.md` に置き、REPORT.md からリンクする。
 

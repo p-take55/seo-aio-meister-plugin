@@ -34,7 +34,7 @@ metadata:
 
 ## 3. 重なりを除く
 
-- 過去に扱ったキーワード: `docs/seo-log.md`、`docs/keyword-candidates.md`、`docs/briefs/` と、記事作成の Workflow があればその Run の履歴を最後まで照合する。履歴を読み切れなかったら「未確認」と記録し、新しい Run を起動しない。
+- 過去に扱ったキーワード: Project のデータベースが使えるときは、まずそこで調べる（`seo-database` の 4。`seo_keyword` に同じ言い方があるか、状態は何か）。無ければ、`docs/seo-log.md`、`docs/keyword-candidates.md`、`docs/briefs/` と、記事作成の Workflow があればその Run の履歴を最後まで照合する。履歴を読み切れなかったら「未確認」と記録し、新しい Run を起動しない。
 - 既存の記事: Project の repo の記事フォルダ（作業ブランチも見る）
 
 同じ答えになる問いは 1 つにまとめ、代表の言い方を選ぶ。

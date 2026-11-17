@@ -39,6 +39,15 @@ Project HTML に、次の 2 つを置く。置き場所と決まりは、Session
 
 Project HTML に `seo-dashboard.data.json` があれば読む。無ければ新しく作る。
 
+### データベースを使っている Project のとき
+
+メンバーが画面を開くと、画面は Project のデータベースを直接読む。キーワード、日ごとの検索の数字、引用されているサイトは、データベースの今の中身がそのまま出る。この 3 つのために JSON を組み直す必要は無い。
+
+- 日ごとの数字は、取ったらデータベースに入れる（`seo-database` の 2 の `gsc-daily`）。
+- JSON の `keywords` は、おすすめの問いだけでよい。`search.daily` と `citation_sources` も、古いままでよい。
+- **外に出す公開のリンクでは、画面はデータベースを読めず、JSON を読む。** 外に見せると決まったら、そのときに JSON の `keywords`・`search.daily`・`citation_sources` を、データベースの中身から書き出す。
+- 段階、次にやること、対応待ち、データ源、検索の実績の合計、記事、サイトの受け皿は、データベースには無い。これまでどおり JSON に書く。
+
 ### 2. 節ごとに値を集める
 
 | 節 | 出どころ |
@@ -46,7 +55,7 @@ Project HTML に `seo-dashboard.data.json` があれば読む。無ければ新�
 | `stage`、`next_action` | Project の文書から今の段階を決める。番号は下の「段階の番号」 |
 | `asks` | Project の開いている Ask（`aachat/contracts/asks.md`）。題名は 1 行に縮める |
 | `sources` | `docs/seo-settings.md` のデータ源の欄。つながっている・依頼中・未接続 |
-| `spend` | 料金のかかるデータ源の残高（DataForSEO は `dataforseo.py balance`、無料）。使った額は `docs/seo-log.md` の記録。分からなければ `null` |
+| `spend` | 料金のかかるデータ源の残高（DataForSEO は `dataforseo.py balance`、無料）。使った額は `docs/seo-log.md` の記録か、データベースの `seo_spend` の合計。分からなければ `null` |
 | `search` | Search Console。下の「検索の実績の取り方」 |
 | `themes`、`keywords` | `docs/keyword-strategy.md` と `docs/keyword-candidates.md` |
 | `citation_sources` | `ai-citation-check` と `ai-visibility-tracking` で控えた引用元のドメイン。サイトごとに、引用していた問いの数を数える。自社は `own: true` |
@@ -93,6 +102,21 @@ python3 ../seo-data-sources/scripts/gsc_query.py --by page --days 28    # pages
 - `brand` は、事業の概要にある社名・製品名（表記ゆれを含む）を含む問いに `true` を付ける。
 - `--by total` の `prev` の行の順位は、`totals.prev_position` に入れる。
 - 問いごとの合計は、匿名化された検索を含まないので `totals` より小さい。`note` にそう書く。
+
+### 3-2. 記事のプレビューを作る
+
+原稿がある記事（`state` が `draft`・`in_review`・`published`）は、原稿を HTML にして、ダッシュボードの「記事」から開けるようにする。公開前の記事を人間が読むための写しで、本番の見た目とは違う。
+
+```bash
+git show 〈ブランチ〉:〈原稿のパス〉 > /tmp/〈slug〉.mdx      # 作業ブランチにある原稿を取り出す
+python3 scripts/article_preview.py /tmp/〈slug〉.mdx 〈Project HTML〉/articles/〈slug〉.html \
+  --state 〈state〉 --source-url 〈原稿の置き場所の URL〉 --checked-on 〈今日〉 --back ../seo-dashboard.html
+```
+
+- `articles[].preview` に `articles/〈slug〉.html`、`source_url` に原稿の置き場所を入れる。
+- 原稿を直したら、プレビューも作り直す。古いままのプレビューは、直す前の原稿を見せてしまう。
+- 公開した記事は `url` に本番の URL を入れる。題名のリンクは本番に向き、プレビューは補助のリンクになる。
+- 「表示しなかった行」が出たら、その部品（JSX）の中身はプレビューに無い。報告に書く。
 
 ### 4. JSON を書いて確かめる
 

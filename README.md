@@ -7,7 +7,7 @@
 
 ## 入っているもの
 
-skill が 16 個です。最初に読まれるのは `seo-aio-playbook` で、今どの段階にいるかを Project の文書から見分け、次に使う skill を決めます。
+skill が 17 個です。最初に読まれるのは `seo-aio-playbook` で、今どの段階にいるかを Project の文書から見分け、次に使う skill を決めます。
 
 | 段階 | すること | skill |
 |---|---|---|
@@ -20,7 +20,7 @@ skill が 16 個です。最初に読まれるのは `seo-aio-playbook` で、�
 | 5. 記事作成 | 根拠つきの概要を作り、原稿を書いて作業ブランチに置く | `article-brief`、`article-writing` |
 | 6. 受け入れ確認 | 原稿を、概要・事実・引用されやすさで確かめる | `article-acceptance-check` |
 | 7. 効果測定 | 記事の結果と、AI による概要での引用を追う | `seo-results-review`、`ai-visibility-tracking` |
-| 共通 | データを取るスクリプト、グラフの画面 | `seo-data-sources`、`seo-dashboard` |
+| 共通 | データを取るスクリプト、数字をためるデータベース、グラフの画面 | `seo-data-sources`、`seo-database`、`seo-dashboard` |
 
 記事を書くことと、その記事を確かめて通すことは、必ず別の Session で行います。
 
@@ -38,7 +38,11 @@ skill が 16 個です。最初に読まれるのは `seo-aio-playbook` で、�
 
 データ源が何も無くても動きますが、検索数は推測に、AI による概要の引用は「未確認」になります。
 
+検索数、クリック単価、問いごとの検索結果と引用元、Search Console の日ごとの数字、使った額は、Project のデータベースにためます（`seo_` で始まる 5 つの表を作ります）。画面は、メンバーが開くとデータベースを直接読みます。データベースが使えない Project では、文書に残す形で動きます。
+
 ## 入れる前に
+
+- **Project のデータベースに、`seo_` で始まる表を 5 つ作ります。** 同じ名前の表が既にある Project では、先に確かめてください。
 
 - **skill の名前が重なると、元からあるほうが使われます。** 入れる Agent に、上の表と同じ名前の skill（`article-brief`、`keyword-strategy` など）が既にあると、この Plugin の同じ名前の skill は読まれません。重なる名前があれば、どちらを残すかを先に決めてください。
 - **実行環境に `python3`、`openssl`、`curl` が要ります。**

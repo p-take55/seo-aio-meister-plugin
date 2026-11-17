@@ -18,6 +18,7 @@
 @media(max-width:1000px){.dashboard>.wide,.dashboard>.aside{grid-column:span 6}.dashboard .figure{padding:0 16px}.dashboard .figure-value{font-size:28px}}
 @media(max-width:700px){.dashboard>.panel{grid-column:1/-1}.dashboard{gap:16px}.stage-area{padding:16px 20px}.track li{flex-basis:98px;padding:0 8px 0 20px;min-height:32px}.track li:last-child{padding-bottom:0;min-height:32px}.track .stop,.track .current .stop{left:3px;top:11px}.figure,.figure:nth-child(odd){flex:1 1 30%;border-left:1px solid var(--hairline);padding:0 12px}.figure:first-child{border-left:0}.figure-value{font-size:28px}.figure-note{font-size:11px}.sources-row{padding:16px 20px}.source-piece+.source-piece{border:0;padding-left:0}.panel-foot{padding:0 20px 20px}.action-content,.unit-block{padding:18px 20px}.range-heading{gap:12px}.chart-host{width:100%}}
 .inset-title{font-size:13px;font-weight:500;padding:0 24px}.chart .unit-square{stroke-width:1.5}
+.article-links{font-weight:400;font-size:.8rem;margin-top:.25rem}
 </style>
 </head>
 <body>
@@ -26,14 +27,14 @@
 <script>
 
 'use strict';
-const sectionSchema = {"stage":{"current":["integer_range",0,7],"note":["nullable","string"]},"next_action":{"who":["enum",["human","agent"]],"text":"string"},"asks":["array",{"title":"string","waiting_for":["nullable","string"],"since":"date"}],"sources":["array",{"name":"string","state":["enum",["connected","requested","not_connected"]],"note":["nullable","string"],"checked_on":"date"}],"spend":["array",{"name":"string","balance_usd":["nullable","number"],"used_usd":["nullable","number"],"checked_on":"date"}],"search":{"source":"string","period":{"start":"date","end":"date"},"prev_period":{"start":"date","end":"date"},"totals":{"clicks":"number","impressions":"number","prev_clicks":["nullable","number"],"prev_impressions":["nullable","number"],"position":["nullable","number"],"prev_position?":["nullable","number"]},"daily":["array",{"date":"date","clicks":"number","impressions":"number"}],"queries":["array",{"clicks":"number","impressions":"number","prev_impressions":"number","position":"number","query":"string","brand":"boolean"}],"pages":["array",{"clicks":"number","impressions":"number","prev_impressions":"number","position":"number","page":"string"}],"note":"string"},"themes":["array",{"name":"string","priority":["enum",["高","中","低"]]}],"keywords":["array",{"keyword":"string","question?":"string","theme":["nullable","string"],"volume":["nullable","number"],"recent3_avg":["nullable","number"],"trend":["enum",["up","flat","down","unknown"]],"cpc_usd":["nullable","number"],"competition":["nullable",["enum",["LOW","MEDIUM","HIGH"]]],"ai_overview":["nullable","boolean"],"own_cited":["nullable","boolean"],"own_position":["nullable","number"],"status":["enum",["candidate","proposed","approved","briefed","published","dropped"]],"rank":["nullable","integer"],"reason":["nullable","string"],"source":["nullable","string"],"checked_on":"date"}],"citation_sources":{"checked_on":"date","questions":"integer","with_overview":["nullable","integer"],"items":["array",{"domain":"string","cited":"integer","own":"boolean"}],"unknown?":["nullable","integer"],"note?":["nullable","string"]},"ai_visibility":{"panel":["array",{"id":"string","question":"string"}],"log":["array",{"date":"date","engine":"string","question_id":"string","cited":["nullable","boolean"],"mentioned?":["nullable","boolean"],"overview?":["nullable","boolean"],"sources?":["array","string"]}]},"articles":["array",{"title":"string","url":["nullable","string"],"published_on":["nullable","date"],"keyword":"string","clicks":["nullable","number"],"impressions":["nullable","number"],"position":["nullable","number"],"ai_cited":["nullable","boolean"],"verdict":["nullable",["enum",["効いている","あと一歩","別の問いで出ている","出ていない","まだ早い"]]],"state?":["enum",["brief","draft","in_review","published"]]}],"readiness":{"checked_on":"date","items":["array",{"level":["enum",["stop","improve","optional"]],"title":"string","state":["enum",["open","done"]],"note":["nullable","string"]}]}};
+const sectionSchema = {"stage":{"current":["integer_range",0,7],"note":["nullable","string"]},"next_action":{"who":["enum",["human","agent"]],"text":"string"},"asks":["array",{"title":"string","waiting_for":["nullable","string"],"since":"date"}],"sources":["array",{"name":"string","state":["enum",["connected","requested","not_connected"]],"note":["nullable","string"],"checked_on":"date"}],"spend":["array",{"name":"string","balance_usd":["nullable","number"],"used_usd":["nullable","number"],"checked_on":"date"}],"search":{"source":"string","period":{"start":"date","end":"date"},"prev_period":{"start":"date","end":"date"},"totals":{"clicks":"number","impressions":"number","prev_clicks":["nullable","number"],"prev_impressions":["nullable","number"],"position":["nullable","number"],"prev_position?":["nullable","number"]},"daily":["array",{"date":"date","clicks":"number","impressions":"number"}],"queries":["array",{"clicks":"number","impressions":"number","prev_impressions":"number","position":"number","query":"string","brand":"boolean"}],"pages":["array",{"clicks":"number","impressions":"number","prev_impressions":"number","position":"number","page":"string"}],"note":"string"},"themes":["array",{"name":"string","priority":["enum",["高","中","低"]]}],"keywords":["array",{"keyword":"string","question?":"string","theme":["nullable","string"],"volume":["nullable","number"],"recent3_avg":["nullable","number"],"trend":["enum",["up","flat","down","unknown"]],"cpc_usd":["nullable","number"],"competition":["nullable",["enum",["LOW","MEDIUM","HIGH"]]],"ai_overview":["nullable","boolean"],"own_cited":["nullable","boolean"],"own_position":["nullable","number"],"status":["enum",["candidate","proposed","approved","briefed","drafted","accepted","published","dropped"]],"rank":["nullable","integer"],"reason":["nullable","string"],"source":["nullable","string"],"checked_on":"date"}],"citation_sources":{"checked_on":"date","questions":"integer","with_overview":["nullable","integer"],"items":["array",{"domain":"string","cited":"integer","own":"boolean"}],"unknown?":["nullable","integer"],"note?":["nullable","string"]},"ai_visibility":{"panel":["array",{"id":"string","question":"string"}],"log":["array",{"date":"date","engine":"string","question_id":"string","cited":["nullable","boolean"],"mentioned?":["nullable","boolean"],"overview?":["nullable","boolean"],"sources?":["array","string"]}]},"articles":["array",{"title":"string","url":["nullable","string"],"published_on":["nullable","date"],"keyword":"string","clicks":["nullable","number"],"impressions":["nullable","number"],"position":["nullable","number"],"ai_cited":["nullable","boolean"],"verdict":["nullable",["enum",["効いている","あと一歩","別の問いで出ている","出ていない","まだ早い"]]],"state?":["enum",["brief","draft","in_review","published"]],"preview?":["nullable","string"],"source_url?":["nullable","string"]}],"readiness":{"checked_on":"date","items":["array",{"level":["enum",["stop","improve","optional"]],"title":"string","state":["enum",["open","done"]],"note":["nullable","string"]}]}};
 const $ = id => document.getElementById(id);
 const number = value => value == null ? '—' : new Intl.NumberFormat('ja-JP', {maximumFractionDigits: 2}).format(value);
 const money = value => value == null ? '—' : '$' + new Intl.NumberFormat('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 3}).format(value);
 const cpc = value => value == null ? '—' : '$' + value.toFixed(2);
 const asList = value => Array.isArray(value) ? value : [];
 const asObject = value => value && !Array.isArray(value) && typeof value === 'object' ? value : null;
-const statusLabels = {candidate:'候補', proposed:'提案中', approved:'承認済み', briefed:'概要あり', published:'公開済み', dropped:'見送り'};
+const statusLabels = {candidate:'候補', proposed:'提案中', approved:'承認済み', briefed:'概要あり', drafted:'原稿あり', accepted:'確認済み', published:'公開済み', dropped:'見送り'};
 const trendLabels = {up:'伸びている', flat:'横ばい', down:'減っている', unknown:'不明'};
 const competitionLabels = {LOW:'低', MEDIUM:'中', HIGH:'高'};
 const boolText = value => value === true ? 'あり' : value === false ? 'なし' : '未確認';
@@ -48,6 +49,11 @@ function link(text, url) {
   const node = el('a', text);
   if (typeof url === 'string' && /^https?:\/\//i.test(url)) node.setAttribute('href', url);
   return node.hasAttribute('href') ? node : el('span', text);
+}
+function localLink(text, path) {
+  const node = el('a', text);
+  if (typeof path === 'string' && /^[A-Za-z0-9_-][A-Za-z0-9._\/-]*\.html$/.test(path) && !path.split('/').some(seg => seg === '' || seg.startsWith('.'))) node.setAttribute('href', path);
+  return node.hasAttribute('href') ? node : null;
 }
 function dateText(value) { return value ? value.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_,y,m,d) => `${y}年${+m}月${+d}日`) : '—'; }
 function dateValid(value) {
@@ -148,7 +154,7 @@ function svgEl(tag, attrs, text) {
   return node;
 }
 const stageNames=['準備','事業調査','サイト整備','戦略','キーワード選定','記事作成','受け入れ確認','効果測定'];
-const statusGlyphs={candidate:'○',proposed:'◐',approved:'●',briefed:'●',published:'●',dropped:'−'};
+const statusGlyphs={candidate:'○',proposed:'◐',approved:'●',briefed:'●',drafted:'●',accepted:'●',published:'●',dropped:'−'};
 const trendText={up:'↗ 伸びている',flat:'→ 横ばい',down:'↘ 減っている',unknown:'不明'};
 const tabDefs=[['overview','概要'],['keywords','キーワード'],['search','検索の実績'],['ai','AI での見え方'],['articles','記事'],['site','サイト']];
 let data=null,activeTab='',cleanup=[];
@@ -226,7 +232,7 @@ function scatter(parent,rows,onPick){
 }
 function renderKeywords(parent){
  const rows=asList(data.keywords);heading(parent,'キーワード');if(!rows.length){empty(parent,'まだキーワードがありません。候補と調査結果を記録すると分析と一覧が表示されます。');return;}
- const parts=['proposed','approved','candidate','briefed','published','dropped'].map(k=>[statusLabels[k],rows.filter(r=>r.status===k).length]).filter(([,n])=>n);parent.append(el('p',`${rows.length} 件。${parts.map(([label,n])=>`${label} ${n}`).join('、')}。`,'muted'));
+ const parts=['proposed','approved','candidate','briefed','drafted','accepted','published','dropped'].map(k=>[statusLabels[k],rows.filter(r=>r.status===k).length]).filter(([,n])=>n);parent.append(el('p',`${rows.length} 件。${parts.map(([label,n])=>`${label} ${n}`).join('、')}。`,'muted'));
  const stack=el('div',null,'stack section-space');parent.append(stack);let filter,theme,status,listCard,draw;
  const pick=k=>{keywordState.term=k.keyword;keywordState.theme='';keywordState.status='';keywordState.page=0;filter.value=k.keyword;theme.value='';status.value='';draw();listCard.scrollIntoView({block:'start'});filter.focus({preventScroll:true});};scatter(stack,rows,pick);
  const volumePanel=panel(stack,'検索数の多い順 上位 20');keywordBars(volumePanel,rows,20,pick);
@@ -279,7 +285,7 @@ function renderAI(parent){
  const sources=panel(stack,'引用されているサイト','各サイトが引用された問いの数');citationBars(sources,15);
  if(asList(visibility?.panel).length&&asList(visibility?.log).length){const card=panel(stack,'定点の記録');const engines=[...new Set(visibility.log.map(r=>r.engine))];engines.forEach(engine=>{const records=visibility.log.filter(r=>r.engine===engine),dates=[...new Set(records.map(r=>r.date))].sort(),cells=new Map(records.map(r=>[r.question_id+'|'+r.date,r]));const t=tableShell(card,engine,'matrix');const corner=el('th','定点の問い');corner.scope='col';t.head.append(corner);dates.forEach(d=>{const th=el('th',dateText(d));th.scope='col';const rows=visibility.panel.map(p=>cells.get(p.id+'|'+d)).filter(Boolean);th.append(el('div',`引用 ${rows.filter(r=>r.cited===true).length} / 概要あり ${rows.filter(r=>r.overview===true).length}`,'small'));t.head.append(th);});visibility.panel.forEach(p=>{const tr=el('tr'),th=el('th',p.question);th.scope='row';tr.append(th);dates.forEach(d=>{const r=cells.get(p.id+'|'+d),td=el('td');if(r?.cited===true)td.append(chip('引用','●'));else if(r?.overview===true&&r?.cited===false)td.append(chip('概要あり・引用なし','○'));else if(r?.overview===false)td.append(chip('概要なし','○'));else if(r?.mentioned===true)td.append(chip('言及のみ','◐'));else td.setAttribute('aria-label','未確認または記録なし');tr.append(td);});t.body.append(tr);});});card.append(el('p','空欄は未確認または記録なしです。','table-note'));}else{const card=panel(stack,'定点の記録');empty(card,'まだ記録がありません。定点で見る問いを決めて、AI の回答に引用されるかを定期的に確かめると表示されます。');}
 }
-function renderArticles(parent){heading(parent,'記事');const rows=asList(data.articles);if(!rows.length){empty(parent,'まだ記事がありません。概要を作った記事と、公開した記事の成果がここに並びます。');return;}const chart=panel(parent,'記事ごとの表示回数');horizontalBars(chart,rows.filter(r=>r.impressions!=null).sort((a,b)=>b.impressions-a.impressions).map(r=>({label:r.title,value:r.impressions,detail:`${r.title} · 表示回数 ${number(r.impressions)} · クリック ${number(r.clicks)}`})),{series:'表示回数'});const card=panel(parent);card.classList.add('section-space');const t=tableShell(card,'記事の状態と成果','article-table');['記事','状態','公開日','狙ったキーワード','クリック','表示回数','順位','AI の引用','判定'].forEach((label,i)=>{const th=el('th',label,i>=4&&i<=6?'num':'');th.scope='col';t.head.append(th);});const stateLabels={brief:['概要あり','○'],draft:['原稿あり','◐'],in_review:['確認中','◐'],published:['公開済み','●']};rows.forEach(r=>{const tr=el('tr'),title=el('th',null,'title-cell');title.scope='row';title.append(link(r.title,r.url));const verdict=el('td');if(r.verdict)verdict.append(chip(r.verdict,{'効いている':'●','あと一歩':'◐','別の問いで出ている':'◐','出ていない':'○','まだ早い':'○'}[r.verdict]));else verdict.textContent='—';const st=stateLabels[r.state||'published'],state=el('td');state.append(chip(st[0],st[1]));tr.append(title,state,el('td',r.published_on?dateText(r.published_on):'—'),el('td',r.keyword),el('td',number(r.clicks),'num'),el('td',number(r.impressions),'num'),el('td',number(r.position),'num'),el('td',boolText(r.ai_cited)),verdict);t.body.append(tr);});}
+function renderArticles(parent){heading(parent,'記事');const rows=asList(data.articles);if(!rows.length){empty(parent,'まだ記事がありません。概要を作った記事と、公開した記事の成果がここに並びます。');return;}const chart=panel(parent,'記事ごとの表示回数');horizontalBars(chart,rows.filter(r=>r.impressions!=null).sort((a,b)=>b.impressions-a.impressions).map(r=>({label:r.title,value:r.impressions,detail:`${r.title} · 表示回数 ${number(r.impressions)} · クリック ${number(r.clicks)}`})),{series:'表示回数'});const card=panel(parent);card.classList.add('section-space');const t=tableShell(card,'記事の状態と成果','article-table');['記事','状態','公開日','狙ったキーワード','クリック','表示回数','順位','AI の引用','判定'].forEach((label,i)=>{const th=el('th',label,i>=4&&i<=6?'num':'');th.scope='col';t.head.append(th);});const stateLabels={brief:['概要あり','○'],draft:['原稿あり','◐'],in_review:['確認中','◐'],published:['公開済み','●']};rows.forEach(r=>{const tr=el('tr'),title=el('th',null,'title-cell');title.scope='row';title.append(r.url?link(r.title,r.url):(localLink(r.title,r.preview)||el('span',r.title)));const extra=[];const pv=localLink('プレビューを開く',r.preview);if(pv)extra.push(pv);const src=r.source_url?link('原稿の置き場所',r.source_url):null;if(src&&src.tagName==='A'){src.target='_blank';src.rel='noopener';extra.push(src);}if(extra.length){const sub=el('div',null,'article-links');extra.forEach((n,k)=>{if(k)sub.append(document.createTextNode(' · '));sub.append(n);});title.append(sub);}const verdict=el('td');if(r.verdict)verdict.append(chip(r.verdict,{'効いている':'●','あと一歩':'◐','別の問いで出ている':'◐','出ていない':'○','まだ早い':'○'}[r.verdict]));else verdict.textContent='—';const st=stateLabels[r.state||'published'],state=el('td');state.append(chip(st[0],st[1]));tr.append(title,state,el('td',r.published_on?dateText(r.published_on):'—'),el('td',r.keyword),el('td',number(r.clicks),'num'),el('td',number(r.impressions),'num'),el('td',number(r.position),'num'),el('td',boolText(r.ai_cited)),verdict);t.body.append(tr);});}
 function renderSite(parent){const readiness=asObject(data.readiness);heading(parent,'サイト',readiness?`確認日 ${dateText(readiness.checked_on)}`:'');const rows=asList(readiness?.items);if(!rows.length){empty(parent,'まだサイトの確認結果がありません。サイトの点検項目と対応状況を記録すると表示されます。');return;}const groups=[['stop','止める','公開を止めるべき問題'],['improve','改善','効果が出る改善'],['optional','任意','任意の改善']];const units=panel(parent,'サイトの対応状況');readinessUnits(units);const body=el('div',null,'readiness-body');parent.append(body);groups.forEach(([key,label,title])=>{const group=rows.filter(r=>r.level===key);if(!group.length)return;const section=el('section',null,'readiness-group');section.append(el('h3',title));const ul=el('ul',null,'checklist');group.forEach(r=>{const li=el('li');const content=el('div');content.append(el('div',r.title),el('p',r.note));li.append(el('span',r.state==='done'?'✓ 済':'□ 未','check-state'),content);ul.append(li);});section.append(ul);body.append(section);});}
 function dashboardPanel(parent,title,target,className='',note=''){
  const card=panel(parent,title,note);if(className)card.classList.add(className);const body=el('div');card.append(body);const footer=el('div',null,'panel-foot');footer.append(button('くわしく見る',()=>go(target)));card.append(footer);return {card,body};
@@ -325,7 +331,7 @@ function themeBars(parent){
  horizontalBars(parent,groups.filter(g=>g.known).sort((a,b)=>b.value-a.value),{series:'検索数の合計',meta:true,empty:'テーマ別の検索数はまだ確認されていません。'});
  const unknown=groups.filter(g=>!g.known);if(unknown.length)parent.append(el('p',unknown.map(g=>`${g.label} ${g.meta}（検索数未確認）`).join(' / '),'table-note'));
 }
-function statusFill(key){return {candidate:['var(--neutral-mark)',.75],proposed:['var(--accent)',.5],approved:['var(--accent)',.7],briefed:['var(--accent)',.85],published:['var(--accent)',1],dropped:['var(--neutral-mark)',.3]}[key]||['var(--neutral-mark)',.5];}
+function statusFill(key){return {candidate:['var(--neutral-mark)',.75],proposed:['var(--accent)',.5],approved:['var(--accent)',.7],briefed:['var(--accent)',.8],drafted:['var(--accent)',.87],accepted:['var(--accent)',.94],published:['var(--accent)',1],dropped:['var(--neutral-mark)',.3]}[key]||['var(--neutral-mark)',.5];}
 function statusChart(parent){
  const rows=Object.keys(statusLabels).map((key,i)=>({key,i,label:statusLabels[key],value:asList(data.keywords).filter(k=>k.status===key).length})).filter(r=>r.value),total=rows.reduce((s,r)=>s+r.value,0);if(!total)return;
  const {wrap,host}=chartHost(parent);observeChart(host,W=>{host.replaceChildren();const svg=svgEl('svg',{viewBox:`0 0 ${W} 48`,class:'chart',role:'group','aria-label':'状態ごとのキーワード件数'});host.append(svg);const tip=tooltip(host),space=W-2*(rows.length-1);let x=0;
@@ -382,11 +388,93 @@ function timePlot(parent,daily,grain){
  });
 }
 
+// Database reads are optional; apply the complete overlay only after every read succeeds.
+async function databaseOverlay(snapshot, signal) {
+ const keywordColumns=['keyword','question','theme','volume','recent3_avg','trend','cpc_usd','bid_low_usd','bid_high_usd','competition','competition_index','monthly','status','rank','reason','source','checked_on'];
+ const checkColumns=['keyword','checked_on','ai_overview','own_cited','own_organic_rank','references_unknown'];
+ async function query(sql, columns) {
+  const response=await fetch('/_aachat/database/query',{method:'POST',headers:{'Content-Type':'application/json'},credentials:'same-origin',body:JSON.stringify({sql,params:[]}),signal});
+  if(!response.ok)throw new Error('Database unavailable');
+  const result=await response.json();
+  if(!result||!Array.isArray(result.columns)||!Array.isArray(result.rows)||result.rows.length>1000||new Set(result.columns).size!==result.columns.length||!columns.every(c=>result.columns.includes(c)))throw new Error('Invalid database response');
+  return result.rows.map(values=>{
+   if(!Array.isArray(values)||values.length!==result.columns.length||values.some(v=>v!==null&&!['string','number','boolean'].includes(typeof v)))throw new Error('Invalid database row');
+   return Object.fromEntries(result.columns.map((column,i)=>[column,values[i]]));
+  });
+ }
+ async function pages(table, columns, order) {
+  const rows=[];
+  for(let offset=0;;offset+=500){
+   const batch=await query(`SELECT ${columns.join(',')} FROM ${table} ORDER BY ${order} LIMIT 500 OFFSET ${offset}`,columns);
+   rows.push(...batch);if(batch.length<500)return rows;
+  }
+ }
+ const keywords=await pages('seo_keyword',keywordColumns,'keyword');
+ const latest='SELECT keyword,MAX(checked_on) AS checked_on FROM seo_serp_check GROUP BY keyword';
+ const checks=await query(`SELECT ${checkColumns.map(c=>'c.'+c).join(',')} FROM seo_serp_check c JOIN (${latest}) latest ON c.keyword=latest.keyword AND c.checked_on=latest.checked_on`,checkColumns);
+ const daily=snapshot.search?await pages('seo_search_daily',['date','clicks','impressions','position'],'date'):[];
+ const citations=checks.length?await query(`SELECT r.domain,COUNT(DISTINCT r.keyword) AS cited FROM seo_serp_result r JOIN (${latest}) latest ON r.keyword=latest.keyword AND r.checked_on=latest.checked_on WHERE r.kind='citation' AND r.domain IS NOT NULL GROUP BY r.domain ORDER BY cited DESC,r.domain LIMIT 200`,['domain','cited']):[];
+ const numeric=value=>value===null||value===''?null:(Number.isFinite(Number(value))?Number(value):null);
+ const string=value=>value==null?null:String(value);
+ const boolean=value=>numeric(value)===1?true:numeric(value)===0?false:null;
+ const validChecks=checks.filter(c=>typeof c.keyword==='string'&&dateValid(c.checked_on));
+ const byKeyword=new Map(validChecks.map(c=>[c.keyword,c]));
+ const overlay={};
+ const saved=new Map(asList(snapshot.keywords).filter(k=>k&&typeof k.keyword==='string').map(k=>[k.keyword,k]));
+ if(keywords.length){
+  const mapped=keywords.filter(k=>typeof k.keyword==='string'&&k.keyword.length).map(k=>{
+   const check=byKeyword.get(k.keyword),row={keyword:k.keyword};
+   for(const col of ['theme','monthly','reason','source'])row[col]=string(k[col]);
+   if(k.question!=null)row.question=string(k.question);
+   for(const col of ['volume','recent3_avg','cpc_usd','bid_low_usd','bid_high_usd','competition_index','rank'])row[col]=numeric(k[col]);
+   row.trend=['up','flat','down','unknown'].includes(k.trend)?k.trend:'unknown';
+   row.status=Object.hasOwn(statusLabels,k.status)?k.status:'candidate';
+   row.competition=['LOW','MEDIUM','HIGH'].includes(k.competition)?k.competition:null;
+   row.checked_on=dateValid(k.checked_on)?k.checked_on:null;
+   const old=saved.get(k.keyword)||{};
+   row.ai_overview=check?boolean(check.ai_overview):(old.ai_overview??null);
+   row.own_cited=check?boolean(check.own_cited):(old.own_cited??null);
+   const rank=check?numeric(check.own_organic_rank):null;row.own_position=check?(rank>0?rank:null):(old.own_position??null);
+   return row;
+  });
+  if(mapped.length)overlay.keywords=mapped;
+ }
+ if(daily.length&&snapshot.search){
+  const mapped=daily.filter(r=>dateValid(r.date)).map(r=>({date:r.date,clicks:numeric(r.clicks),impressions:numeric(r.impressions),position:numeric(r.position)}));
+  if(mapped.length)overlay.search={...snapshot.search,daily:mapped};
+ }
+ if(validChecks.length){
+  let ownHost='';try{ownHost=new URL(snapshot.site.url).hostname.toLowerCase().replace(/^www\./,'').replace(/\.$/,'');}catch(error){}
+  overlay.citation_sources={
+   questions:validChecks.length,
+   with_overview:validChecks.filter(c=>boolean(c.ai_overview)===true).length,
+   unknown:validChecks.reduce((sum,c)=>sum+(numeric(c.references_unknown)??0),0),
+   checked_on:validChecks.map(c=>c.checked_on).sort().at(-1),
+   items:citations.filter(r=>typeof r.domain==='string'&&r.domain.length).map(r=>{
+    const host=r.domain.toLowerCase().replace(/^www\./,'').replace(/\.$/,'');
+    return {domain:r.domain,cited:numeric(r.cited)??0,own:Boolean(ownHost)&&(host===ownHost||host.endsWith('.'+ownHost))};
+   })
+  };
+ }
+ return overlay;
+}
+async function tryDatabase(snapshot) {
+ let timer,controller;
+ try{
+  controller=new AbortController();
+  const timeout=new Promise((resolve,reject)=>{timer=setTimeout(()=>{controller.abort();reject(new Error('Database timeout'));},6000);});
+  const overlay=await Promise.race([databaseOverlay(snapshot,controller.signal),timeout]);
+  Object.assign(snapshot,overlay);
+  return Object.keys(overlay).length>0;
+ }catch(error){return false;}finally{clearTimeout(timer);}
+}
+
 function localTimestamp(value){const d=new Date(value);return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日 ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;}
 async function start(){try{
  let response;try{response=await fetch('./seo-dashboard.data.json');}catch(error){throw new Error(`データを読み込めません（${error.message}）。HTML と同じ場所に seo-dashboard.data.json を置いてください。`);}if(!response.ok)throw new Error(`データを読み込めません（HTTP ${response.status}）。seo-dashboard.data.json の配置を確認してください。`);
  try{data=await response.json();}catch(error){throw new Error(`データの JSON を解析できません（${error.message}）。書式を確認してください。`);}const errors=checkData(data);if(errors.length)throw new Error('データの形式が正しくありません。\n'+errors.join('\n'));
- $('site-name').replaceChildren(link(data.site.name,data.site.url));document.title=data.site.name+' — SEO・AIO ダッシュボード';$('updated').textContent='最終更新 '+localTimestamp(data.generated_at);
+ const databaseUsed=await tryDatabase(data);
+ $('site-name').replaceChildren(link(data.site.name,data.site.url));document.title=data.site.name+' — SEO・AIO ダッシュボード';$('updated').textContent='最終更新 '+localTimestamp(data.generated_at)+' · データ: '+(databaseUsed?'データベース':'保存された写し');
  tabDefs.forEach(([id,label],i)=>{const b=button('',()=>go(id));b.id='tab-'+id;b.setAttribute('role','tab');b.setAttribute('aria-controls','view');b.append(document.createTextNode(label));if(id==='keywords'||id==='articles')b.append(el('span',number(asList(data[id]).length),'tab-count'));b.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const j=e.key==='Home'?0:e.key==='End'?tabDefs.length-1:(i+(e.key==='ArrowRight'?1:tabDefs.length-1))%tabDefs.length;go(tabDefs[j][0],true);}});$('tabs').append(b);});$('tabs').hidden=false;
  window.addEventListener('hashchange',()=>go(location.hash.slice(1)));go(location.hash.slice(1)||'overview');
  }catch(error){$('view').hidden=true;$('tabs').hidden=true;$('error').textContent=error.message||'表示処理に失敗しました。データを確認してください。';$('error').hidden=false;}finally{$('loading').hidden=true;}}

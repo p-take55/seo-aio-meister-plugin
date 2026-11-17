@@ -42,7 +42,8 @@
     "ai_overview": true, "own_cited": false,     // true | false | null（未確認）
     "own_position": null,                        // 自社の順位（Search Console）。数値 | null
     "status": "proposed",                        // "candidate"（候補）| "proposed"（提案中）| "approved"（承認済み）
-                                                 // | "briefed"（概要あり）| "published"（公開済み）| "dropped"（見送り）
+                                                 // | "briefed"（概要あり）| "drafted"（原稿あり）| "accepted"（確認済み・公開待ち）
+                                                 // | "published"（公開済み）| "dropped"（見送り）
     "rank": 1,                                   // おすすめ順。整数 | null
     "reason": "〈勝てる理由〉",
     "source": "DataForSEO", "checked_on": "2026-11-16"
@@ -69,6 +70,8 @@
     "title": "〈記事の題〉",
     "state": "published",                        // "brief"（概要あり）| "draft"（原稿あり）| "in_review"（確認中）| "published"（公開済み）。省くと公開済み
     "url": "https://example.com/blog/…", "published_on": "2026-11-20",   // 公開前は null
+    "preview": "articles/〈slug〉.html",          // 省略可。原稿のプレビュー（scripts/article_preview.py で作る）。Project HTML からの相対パス
+    "source_url": "https://github.com/…/blob/〈ブランチ〉/…",   // 省略可。原稿の置き場所
     "keyword": "〈狙った言い方〉",
     "clicks": 0, "impressions": 0, "position": null, "ai_cited": null,
     "verdict": "まだ早い"                         // "効いている" | "あと一歩" | "別の問いで出ている" | "出ていない" | "まだ早い"（seo-results-review の区分）。公開前は null
